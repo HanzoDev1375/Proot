@@ -16,7 +16,7 @@ OBJDUMP  ?= $(CROSS_COMPILE)objdump
 
 CPPFLAGS += -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -I. -I$(VPATH)
 CFLAGS   += -Wall -Wextra -O2
-LDFLAGS  += -Wl,-z,noexecstack,-rpath,/data/data/com.rk.xededitor/proot/lib -ltalloc
+LDFLAGS  += -Wl,-z,noexecstack,-rpath,/data/data/Ninja.coder.Ghostemane.code/proot/lib -ltalloc
 
 OBJECTS += \
 	cli/cli.o		\
